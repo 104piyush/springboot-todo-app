@@ -6,4 +6,5 @@ COPY . .
 
 RUN ./mvnw clean package -DskipTests
 
-CMD ["java", "-jar", "target/*.jar"]
+CMD ["java", "-jar", "target/Springmvc-1.0.jar"]
+
